@@ -4,75 +4,77 @@ body {
 
 
 .osnovaniye {
-    height: 100%;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  @media (max-width: 767px) {
-    .osnovaniye {
-    padding: 50px 10px;
-    }
-  }
-  
-  .slick-slider {
-    min-width: 0;
-  }
-  
-  .slick-list {
-    overflow: hidden;
-  }
-  
-  .slick-track {
-    display: flex;
-    align-items: flex-start;
-  }
-  
-  .slider {
-    position: relative;
-    padding: 0px 60px;
-  }
-  
-  @media (max-width: 767px) {
-    .slider {
-    padding: 0px 40px;
-    }
-  }
-  
-  .slider .slick-arrow {
-    position: absolute;
-    top: 50%;
-    margin: -20px 0px 0px 0px;
-    z-index: 10;
-    font-size: 0;
-    width: 30px;
-    height: 30px;
-  }
-  .slider .slick-arrow.slick-prev {
-    left: 0;
-    background: url("https://zornet.ru/CSS-ZORNET/Kodak_saita/Asvaged/dekulased/long-arrow-left.png") 0
-    0 / 100% no-repeat;
-  }
-  .slider .slick-arrow.slick-next {
-    right: 0;
-    background: url("https://zornet.ru/CSS-ZORNET/Kodak_saita/Asvaged/dekulased/long-arrow-right.png") 0 0 / 100% no-repeat;
-  }
-  .slider .slick-arrow.slick-disabled {
-    opacity: 0.2;
-  }
-  
-  .moving_slayda {
-    padding: 0px 15px;
-    margin: auto;
-  }
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .container_or_card {
-    max-width: 100%;
-    height: 40rem;
-    align-items: center;
+@media (max-width: 767px) {
+  .osnovaniye {
+  padding: 50px 10px;
   }
+}
+
+.slick-slider {
+  min-width: 0;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.slider {
+  position: relative;
+  padding: 0px 60px;
+}
+
+@media (max-width: 767px) {
+  .slider {
+  padding: 0px 40px;
+  }
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -20px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+}
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url("images/left.png") 0
+  0 / 100% no-repeat;
+  border: #30006C;
+  cursor: pointer;
+}
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("images/right.png") 0 0 / 100% no-repeat;
+  border: #30006C;
+  cursor: pointer;
+}
+.slider .slick-arrow.slick-disabled {
+  opacity: 0.2;
+}
+
+.moving_slayda {
+  padding: 0px 15px;
+}
+
+.conteiner_of_card{
+  max-width: 100%;
+  height: 278px;
+}
 
 .button {
     display: flex;
@@ -159,7 +161,7 @@ body {
 }
 
 .img_pos {
-    padding: 12%;
+    padding: 9%;
     position: absolute;
 }
 
@@ -170,3 +172,49 @@ body {
     text-align: center;
 }
 
+.text_upload_css {
+    margin-top: 4%;
+    margin-left: 8%;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input {
+    background: linear-gradient(90deg, #BB57F9 0%, #6E3393 100%);
+    border-radius: 20px;
+    width: 282px;
+    height: 88px;
+    margin-left: 13%;
+    margin-top: 1%;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    font-size: 35px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.material {
+    color: #FFFFFF;
+    font-size: 35px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.input_text_in_int {
+    margin-left: 60%;
+}
+
+.main_about_input {
+    display: flex;
+}
