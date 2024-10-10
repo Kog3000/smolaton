@@ -28,3 +28,25 @@ body {
 .text_my_works {
     margin: 7%;
 }
+
+.card_of_works {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+
+.conteiner_of_card {
+    margin: 2%;
+}
+
+.conteiner_of_card {
+    position: relative;
+}
+
+.rec {
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    width: 209px;
+    height: 140px;
+}
