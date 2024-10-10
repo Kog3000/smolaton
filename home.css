@@ -1,0 +1,22 @@
+.info_main {
+    align-items: center;
+}
+
+.info_main img {
+    width: 100%;
+    padding: 10%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card_item {
+    flex-basis: 33%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 5rem;
+  }
