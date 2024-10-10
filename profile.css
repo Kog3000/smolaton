@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(113.15deg, #FFFFFF -51.29%, #34204C 7.1%, #4C257E 34.24%, #7032BE 53.58%, #30006C 79.92%);
+}
+
+.button {
+    display: flex;
+    justify-content: right;
+}
+
+.image_profile {
+    margin-top: 7%;
+    margin-left: 8%;
+    display: flex;
+}
+
+.image_text {
+    margin-left: 10%;
+}
+
+.text_image {
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text_my_works {
+    margin: 7%;
+}
