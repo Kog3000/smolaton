@@ -36,17 +36,64 @@ body {
 }
 
 .conteiner_of_card {
-    margin: 2%;
-}
-
-.conteiner_of_card {
     position: relative;
+    margin: 3%;
 }
 
-.rec {
+.text_into {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text {
+    display: flex;
+    margin: -1%;
+    justify-content: center;
+}
+
+.text_after {
+    margin-top: -1%;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text_after_description {
+    margin-top: -13%;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text_after_description_price {
+    margin-top: 2%;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button_card {
+    display: flex;
+    justify-content: center;
+}
+
+.img_pos {
+    padding: 12%;
     position: absolute;
-    background-color: #FFFFFF;
-    border-radius: 30px;
-    width: 209px;
-    height: 140px;
+}
+
+.slide {
+    flex: none;
+    scroll-snap-align: start;
+    width: 300px;
+    text-align: center;
 }
