@@ -4,7 +4,9 @@
 
 .info_main img {
     width: 100%;
-    padding: 10%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .cards {
@@ -14,9 +16,24 @@
 }
 
 .card_item {
+    position: relative;
     flex-basis: 33%;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
     width: 5rem;
   }
+
+.text {
+    position: absolute;
+    padding: 15%;
+    margin: 2%;
+    width: 30rem;
+    height: auto;
+}
+
+.text button {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 30px;
+}
