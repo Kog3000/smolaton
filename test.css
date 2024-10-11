@@ -1,15 +1,18 @@
-.slide {
-    flex: none;
-    scroll-snap-align: start;
-    width: 300px;
-    text-align: center;
+body {
+    font-family: Arial, sans-serif;
 }
 
 .container {
-    display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    width: 300px;
-    -webkit-overflow-scrolling: touch;
-    /* для плавной прокрутки на мобильных устройствах */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.block {
+    background-color: #f1c40f;
+    padding: 50px;
+    margin-bottom: 50px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 0.5s, opacity 0.5s;
 }
