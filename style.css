@@ -13,23 +13,21 @@ body {
 }
 
 .card_up {
-background: rgba(142, 70, 162, 0.48);
-border-radius: 0 0 70px 70px;
-margin-left: 2%;
-margin-right: 2%;
-height: 58rem;
+    background: rgba(142, 70, 162, 0.48);
+    border-radius: 0 0 70px 70px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 58rem;
 }
 
-.second_bg{
-background: rgba(106, 18, 131, 0.48);
-border-radius: 0 0 70px 70px;
-height: 60em;
-
+.second_bg {
+    background: rgba(106, 18, 131, 0.48);
+    border-radius: 0 0 70px 70px;
+    height: 60em;
 }
 
 .menu {
     padding: 20%;
-
 }
 
 .main_card_info {
@@ -88,4 +86,43 @@ height: 60em;
 
 body {
     background: linear-gradient(113.15deg, #FFFFFF -51.29%, #34204C 7.1%, #4C257E 34.24%, #7032BE 53.58%, #30006C 79.92%);
+}
+
+.menu {
+    margin-top: -7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_menu {}
+
+.info_about_txt {
+    font-size: 35px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline;
+}
+
+.main_for_it {
+    position: relative;
+}
+
+.btn_menu {
+    position: absolute;
+    align-items: center;
+    padding-top: 2.2%;
+    padding-left: 5%;
+    text-align: center;
+}
+
+.info_about_txt:hover {
+    color: #CB309D;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
 }
