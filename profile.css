@@ -54,7 +54,7 @@ body {
   left: 0;
   background: url("images/left.png") 0
   0 / 100% no-repeat;
-  border: #30006C;
+  border:#30006C;
   cursor: pointer;
 }
 .slider .slick-arrow.slick-next {
@@ -161,7 +161,7 @@ body {
 }
 
 .img_pos {
-    padding: 9%;
+    padding: 8%;
     position: absolute;
 }
 
