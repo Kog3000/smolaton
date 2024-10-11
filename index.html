@@ -7,6 +7,8 @@
     <title>SNP</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
     </script>
@@ -14,6 +16,13 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/bxslider.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -68,13 +77,72 @@
         </div>
     </section>
 
-    <section class="menu">
-        <img src="images/menu.png">
-    </section>
+    <section class="menu"></section>
+
+    <section class="osnovaniye">
+        <div class="slider">
+
+        <div class="moving_slayda">
+        <img src="images/slide_card.png"
+        alt="">
+        </div>
+
+        <div class="moving_slayda">
+            <img src="images/slide_card.png"
+            alt="">
+        </div>
+
+        <div class="moving_slayda">
+            <img src="images/slide_card.png"
+            alt="">
+        </div>
+
+        <div class="moving_slayda">
+            <img src="images/slide_card.png"
+            alt="">
+            </div>
+    
+            <div class="moving_slayda">
+                <img src="images/slide_card.png"
+                alt="">
+            </div>
+    
+            <div class="moving_slayda">
+                <img src="images/slide_card.png"
+                alt="">
+            </div>
+
+        
+        </div>
+        </section>
+        <div class="bg_1">
+            <div class="bg_2"></div>
+        </div>
+<script>
+    $(document).ready(function() {
+  $(".slider").slick({
+  arrows: true,
+  dots: false,
+  slidesToShow: 3,
+  autoplay: true,
+  speed: 900,
+  autoplaySpeed: 700,
+  responsive: [
+  {
+  breakpoint: 768,
+  settings: {
+  slidesToShow: 2
+  }
+  },
+  {
+  breakpoint: 550,
+  settings: {
+  slidesToShow: 1
+  }
+  }
+  ]
+  });
+});
+</script>
 </body>
-
-</html>
-
-</body>
-
 </html>
