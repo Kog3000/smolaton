@@ -118,25 +118,38 @@
   }
   .moving_slayda img {
     max-width: 100%;
-    height: 315px;
+    height: 20rem;
     z-index: 100;
     margin-left: 16.5%;
+    padding: 7%;
   }
 
-.bg_1 {
-    background: #743386;
+.osnovaniye {
+    background: #642077;
     border-radius: 45px 45px 0 0;
     width: 100%;
-    height: 28rem;
-    z-index: 1;
-    margin-top: -15%;
+    height: 25rem;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin-top: -25%;
 }
 
-.bg_2 {
-    background: #642077;
-    border-radius: 45px;
-    align-content: center;
-    width: 96%;
-    height: 31rem;
-    z-index: 2;
+.slider {
+background: #743386;
+border-radius: 45px;
+
+}
+
+
+
+.prof {
+  font-size: 2rem;
+  color: white;
+  text-decoration: underline;
+}
+
+.prof:hover {
+  transition: 0.5s;
+  font-size: 2.1rem;
+  color: white;
 }
