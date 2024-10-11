@@ -28,6 +28,33 @@
     color: #FFFFFF;
 }
 
+.button_proton {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.descreption {
+    display: flex;
+    justify-content: center;
+    margin-top: -7%;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.smeshariki_3000 {
+    display: flex;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+}
+
 .market_text {
     font-size: 150px;
     color: #FFFFFF;
