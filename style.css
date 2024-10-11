@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -83,6 +85,7 @@ body {
     font-size: 150px;
     color: #FFFFFF;
 }
+
 
 body {
     background: linear-gradient(113.15deg, #FFFFFF -51.29%, #34204C 7.1%, #4C257E 34.24%, #7032BE 53.58%, #30006C 79.92%);
