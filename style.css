@@ -8,6 +8,30 @@
     text-decoration: none;
 }
 
+body {
+    background: linear-gradient(113.15deg, #FFFFFF -51.29%, #34204C 7.1%, #4C257E 34.24%, #7032BE 53.58%, #30006C 79.92%);
+}
+
+.card_up {
+background: rgba(142, 70, 162, 0.48);
+border-radius: 0 0 70px 70px;
+margin-left: 2%;
+margin-right: 2%;
+height: 58rem;
+}
+
+.second_bg{
+background: rgba(106, 18, 131, 0.48);
+border-radius: 0 0 70px 70px;
+height: 60em;
+
+}
+
+.menu {
+    padding: 20%;
+
+}
+
 .main_card_info {
     padding: -20%;
     display: flex;
@@ -37,7 +61,7 @@
 .descreption {
     display: flex;
     justify-content: center;
-    margin-top: -7%;
+    margin-top: -8%;
     font-size: 17px;
     color: #FFFFFF;
     font-family: "Bebas Neue", sans-serif;
@@ -47,6 +71,8 @@
 
 .smeshariki_3000 {
     display: flex;
+    padding-top: 25%;
+    padding-bottom: 5%;
     font-size: 25px;
     color: #FFFFFF;
     font-family: "Bebas Neue", sans-serif;

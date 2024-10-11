@@ -4,18 +4,28 @@
 
 .info_main img {
     width: 100%;
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-bottom: -25%;
+    margin-right: 3.5%;
+    padding-top: 5.5%;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.card_item {
+.card_item_main{
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 367px;
+    margin: 2rem;
+
+  }
+
+  .card_item_3dmodel{
     position: relative;
     flex-basis: 33%;
     display: flex;
@@ -30,6 +40,17 @@
     height: 20rem;
 }
 
-.text p {
+.card_up img {
+    margin-top: 0;
+}
+
+
+.text button {
+    display: flex;
+    align-items: center;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 30px;
+    text-align: center;
 }
 

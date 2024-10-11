@@ -1,12 +1,66 @@
-body {
-    background: linear-gradient(113.15deg, #FFFFFF -51.29%, #34204C 7.1%, #4C257E 34.24%, #7032BE 53.58%, #30006C 79.92%);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none;
 }
 
+.main_card_info {
+    padding: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.info_main {
+    position: relative;
+}
 
-.text {
+.card {
     position: absolute;
-    padding: 10%;
-    width: 100%;
-    height: 20rem;
+}
+
+.digital_text {
+    font-size: 200px;
+    color: #FFFFFF;
+}
+
+.button_proton {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.descreption {
+    display: flex;
+    justify-content: center;
+    margin-top: -8%;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.smeshariki_3000 {
+    display: flex;
+    padding-bottom: 2%;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+}
+
+.market_text {
+    font-size: 150px;
+    color: #FFFFFF;
+}
+
+body {
+    background: linear-gradient(113.15deg, #FFFFFF -51.29%, #34204C 7.1%, #4C257E 34.24%, #7032BE 53.58%, #30006C 79.92%);
 }
